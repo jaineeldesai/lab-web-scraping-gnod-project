@@ -16,7 +16,7 @@
 
 #### Instructions
 
-1. Scraping popular songs
+##### Scraping popular songs
 
 Your product will take a song as an input from the user and will output another song (the recommendation). In most cases, the recommended song will have to be similar to the inputed song, but the CTO thinks that if the song is on the top charts at the moment, the user will also enjoy a recommendation of another song that is popular at the moment.
 
@@ -24,13 +24,13 @@ You have to find data on the internet about currently popular songs. Popvortex m
 
 It's a good place to start! Scrape the current top 100 songs and their respective artists, and put the information into a pandas dataframe.
 
-2. API wrappers - Create your collection of songs & audio features
+##### API wrappers - Create your collection of songs & audio features
 
 To move forward with the project, you need to create a collection of songs with their audio features - as large as possible!
 
 These are the songs that we will cluster. And, later, when the user inputs a song, we will find the cluster to which the song belongs and recommend a song from the same cluster. The more songs you have, the more accurate and diverse recommendations you'll be able to give. Although... you might want to make sure the collected songs are "curated" in a certain way. Try to find playlists of songs that are diverse, but also that meet certain standards.
 
-3. Unsupervised learning
+##### Unsupervised learning
 
 Clustering the songs will allow the recommendation system to limit the scope of the recommendations to only songs that belong to the same cluster - songs with similar audio features.
 
